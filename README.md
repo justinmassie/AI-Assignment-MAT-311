@@ -2,9 +2,9 @@
 # Credit Card Fraud Detection — Exploratory Data Analysis (EDA)
 
 ## Overview
-This project recreates the exploratory data analysis (EDA) portion of the **Credit Card Fraud Detection** notebook presented in class. The goal was to practice using a **Large Language Model (LLM)** to assist in reproducing the analysis **without directly copying** any code, text, or visuals from the original source.
+This project recreates the exploratory data analysis (EDA) portion of the Credit Card Fraud Detection notebook presented in class. The goal was to practice using a LLM to assist in reproducing the analysis without directly copying any code, text, or visuals from the original source.
 
-All work up to, but **not including**, the machine learning section ("Can we predict if a transaction is a fraud?") has been completed.  
+All work up to, but not including, the machine learning section ("Can we predict if a transaction is a fraud?") has been completed.  
 
 ## Objectives
 - Recreate and expand on the in-class EDA using my own questions and AI-assisted reasoning.  
@@ -12,7 +12,7 @@ All work up to, but **not including**, the machine learning section ("Can we pre
 - Practice healthy, thoughtful AI use in the data analysis workflow as a Christian and mindful learner.
 
 ## How AI Was Used
-This notebook was developed with the assistance of **ChatGPT (GPT-5)** to help:
+This notebook was developed with the assistance of ChatGPT (GPT-5) to help:
 - Formulate exploratory data analysis (EDA) questions.  
 - Generate Python and visualization code snippets.  
 - Interpret data relationships and visualize trends efficiently.  
@@ -34,24 +34,24 @@ The dataset used is `card_transdata`, containing 977 records and 8 columns:
 | `fraud` | Binary indicator of fraud (1 = Fraudulent, 0 = Legitimate) |
 
 ## Key Analyses
-- **Data Cleaning:** Checked for and dropped missing values.  
-- **Univariate Analysis:** Explored distributions of categorical variables such as chip usage, PIN usage, online orders, and fraud labels.  
-- **Bivariate Analysis:** Examined relationships between fraud and transaction characteristics through countplots and percentage plots.  
-- **Scatter Plot Analysis:** Visualized fraudulent vs. non-fraudulent transactions by `distance_from_home` and `ratio_to_median_purchase_price`.
+- Data Cleaning: Checked for and dropped missing values.  
+- Univariate Analysis: Explored distributions of categorical variables such as chip usage, PIN usage, online orders, and fraud labels.  
+- Bivariate Analysis: Examined relationships between fraud and transaction characteristics through countplots and percentage plots.  
+- Scatter Plot Analysis: Visualized fraudulent vs. non-fraudulent transactions by `distance_from_home` and `ratio_to_median_purchase_price`.
 
 ## Insights
-- Fraudulent transactions tend to occur more frequently **further from home** and with **higher purchase price ratios**.  
-- **Online orders** and transactions **without PIN or chip verification** show higher proportions of fraud.  
+- Fraudulent transactions tend to occur more frequently further from home and with higher purchase price ratios.  
+- Online orders and transactions without PIN or chip verification show higher proportions of fraud.  
 - Fraud cases are a minority class, emphasizing the need for careful model balancing in predictive modeling.
 
 ## Reflection
-This assignment demonstrated how AI can serve as a **powerful ally** for accelerating analysis and visualization tasks.  
-However, it also reinforced the importance of **critical thinking, verification, and independent reasoning** — skills that remain vital both professionally and spiritually.
+This assignment demonstrated how AI can serve as a powerful ally for accelerating analysis and visualization tasks.  
+However, it also reinforced the importance of critical thinking, verification, and independent reasoning — skills that remain vital both professionally and spiritually.
 
 ---
 
-**Author:** Justin Massie
-**Course:** MAT 311  
-**Instructor:** Dr. Mishra 
-**Date:** 10/27/2025  
+Author: Justin Massie
+Course: MAT 311  
+Instructor: Dr. Mishra 
+Date: 10/27/2025  
 
